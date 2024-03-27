@@ -1,0 +1,1015 @@
+﻿Traceback (most recent call last):
+  File "E:\project\9.21(IZANAMI)\IZNAMI_20240304\main\comapyny_get_shuukatsu_v101.py", line 430, in val_list_shuukatsu_get
+    g_val.driver = webdriver.Chrome(options=g_val.option,service=chrome_service)
+  File "C:\Users\PJ\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+  File "C:\Users\PJ\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 53, in __init__
+    self.service.start()
+  File "C:\Users\PJ\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\common\service.py", line 98, in start
+    self._start_process(self._path)
+  File "C:\Users\PJ\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\common\service.py", line 204, in _start_process
+    self.process = subprocess.Popen(
+  File "C:\Users\PJ\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 837, in __init__
+    errread, errwrite) = self._get_handles(stdin, stdout, stderr)
+  File "C:\Users\PJ\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 1304, in _get_handles
+    c2pwrite = msvcrt.get_osfhandle(stdout.fileno())
+ValueError: I/O operation on closed file
+
+2024-03-26 09:11:09.794711
+(('スターバックスコーヒージャパン株式会社', 'https://syukatsu-kaigi.jp/companies/122645', ' サービス', '-  -'), ('トヨタ自動車株式会社', 'https://syukatsu-kaigi.jp/companies/32463', ' メーカー', '-  -'), ('住友商事株式会社', 'https://syukatsu-kaigi.jp/companies/125043', ' 商社・卸', '-  -'), ('伊藤忠商事株式会社', 'https://syukatsu-kaigi.jp/companies/124896', ' 商社・卸', '-  -'), ('三井物産株式会社', 'https://syukatsu-kaigi.jp/companies/124900', ' 商社・卸', '-  -'), ('アクセンチュア株式会社', 'https://syukatsu-kaigi.jp/companies/94735', ' サービス', '-  -'), ('野村證券株式会社', 'https://syukatsu-kaigi.jp/companies/113065', ' 金融', '-  -'), ('三菱商事株式会社', 'https://syukatsu-kaigi.jp/companies/122014', ' 商社・卸', '-  -'), ('味の素株式会社', 'https://syukatsu-kaigi.jp/companies/123541', ' メーカー', '-  -'), ('アステラス製薬株式会社', 'https://syukatsu-kaigi.jp/companies/122076', ' メーカー', '-  -'), ('株式会社ＮＴＴドコモ', 'https://syukatsu-kaigi.jp/companies/125598', ' IT・通信', '-  -'), ('武田薬品工業株式会社', 'https://syukatsu-kaigi.jp/companies/43694', ' メーカー', '-  -'), ('株式会社キーエンス', 'https://syukatsu-kaigi.jp/companies/34080', ' メーカー', '-  -'), ('三井不動産株式会社', 'https://syukatsu-kaigi.jp/companies/92685', ' サービス', '-  -'), ('楽天グループ株式会社', 'https://syukatsu-kaigi.jp/companies/122934', ' IT・通信', '-  -'), ('株式会社デンソー', 'https://syukatsu-kaigi.jp/companies/51864', ' メーカー', '-  -'), ('株式会社オリエンタルランド', 'https://syukatsu-kaigi.jp/companies/98499', ' サービス', '-  -'), ('日本IBM株式会社', 'https://syukatsu-kaigi.jp/companies/111910', ' IT・通信', '-  -'), ('伊藤忠テクノソリューションズ株式会社', 'https://syukatsu-kaigi.jp/companies/94487', ' IT・通信', '-  -'), ('パナソニックホールディングス株式会社', 'https://syukatsu-kaigi.jp/companies/50745', ' サービス', '-  -'), ('株式会社小松製作所', 'https://syukatsu-kaigi.jp/companies/73242', ' メーカー', '-  -'), ('アビームコンサルティング株式会社', 'https://syukatsu-kaigi.jp/companies/84200', ' サービス', '-  -'), ('中外製薬株式会社', 'https://syukatsu-kaigi.jp/companies/121983', ' メーカー', '-  -'), ('株式会社日立ソリューションズ', 'https://syukatsu-kaigi.jp/companies/85910', ' IT・通信', '-  -'), ('株式会社村田製作所', 'https://syukatsu-kaigi.jp/companies/51282', ' メーカー', '-  -'), ('丸紅株式会社', 'https://syukatsu-kaigi.jp/companies/124907', ' 商社・卸', '-  -'), ('九州電力株式会社', 'https://syukatsu-kaigi.jp/companies/18492', ' インフラ・物流', '-  -'), ('株式会社インテージ', 'https://syukatsu-kaigi.jp/companies/117406', ' IT・通信', '-  -'), ('株式会社電通総研', 'https://syukatsu-kaigi.jp/companies/125423', ' IT・通信', '-  -'), ('株式会社タマディック', 'https://syukatsu-kaigi.jp/companies/79029', ' サービス', '-  -'), ('関西電力株式会社', 'https://syukatsu-kaigi.jp/companies/47232', ' インフラ・物流', '-  -'), ('ヤマハ株式会社', 'https://syukatsu-kaigi.jp/companies/41387', ' メーカー', '-  -'), ('東京海上日動火災保険株式会社', 'https://syukatsu-kaigi.jp/companies/119260', ' 金融', '-  -'), ('セイコーエプソン株式会社', 'https://syukatsu-kaigi.jp/companies/44285', ' メーカー', '-  -'), ('株式会社サイバーエージェント', 'https://syukatsu-kaigi.jp/companies/112480', ' IT・通信', '-  -'), ('第一三共株式会社', 'https://syukatsu-kaigi.jp/companies/73294', ' メーカー', '-  -'), ('株式会社三井住友銀行', 'https://syukatsu-kaigi.jp/companies/78993', ' 金融', '-  -'), ('株式会社ユニクロ', 'https://syukatsu-kaigi.jp/companies/14769', ' 小売り', '-  -'), ('ＤＭＧ森精機株式会社', 'https://syukatsu-kaigi.jp/companies/50238', ' メーカー', '-  -'), ('デル・テクノロジーズ株式会社', 'https://syukatsu-kaigi.jp/companies/112767', ' 商社・卸', '-  -'), ('株式会社資生堂', 'https://syukatsu-kaigi.jp/companies/92969', ' メーカー', '-  -'), ('アサヒビール株式会社', 'https://syukatsu-kaigi.jp/companies/124753', ' メーカー', '-  -'), ('ブラザー工業株式会社', 'https://syukatsu-kaigi.jp/companies/49351', ' メーカー', '-  -'), ('東京海上日動システムズ株式会社', 'https://syukatsu-kaigi.jp/companies/109015', ' IT・通信', '-  -'), ('株式会社豊田自動織機', 'https://syukatsu-kaigi.jp/companies/51841', ' メーカー', '-  -'), ('中部電力株式会社', 'https://syukatsu-kaigi.jp/companies/51077', ' インフラ・物流', '-  -'), ('積水化学工業株式会社', 'https://syukatsu-kaigi.jp/companies/44885', ' メーカー', '-  -'), ('日本郵船株式会社', 'https://syukatsu-kaigi.jp/companies/108840', ' インフラ・物流', '-  -'), ('日本ヒューレット・パッカード合同会社', 'https://syukatsu-kaigi.jp/companies/117082', ' メーカー', '-  -'), ('ＭＳＤ株式会社', 'https://syukatsu-kaigi.jp/companies/122423', ' メーカー', '-  -'), ('株式会社島津製作所', 'https://syukatsu-kaigi.jp/companies/41380', ' メーカー', '-  -'), ('株式会社ディスコ', 'https://syukatsu-kaigi.jp/companies/108653', ' メーカー', '-  -'), ('株式会社ラウンドワン', 'https://syukatsu-kaigi.jp/companies/27601', ' サービス', '-  -'), ('富士フイルム株式会社', 'https://syukatsu-kaigi.jp/companies/122524', ' メーカー', '-  -'), ('日本電気株式会社（NEC）', 'https://syukatsu-kaigi.jp/companies/122540', ' メーカー', '-  -'), ('電源開発株式会社', 'https://syukatsu-kaigi.jp/companies/101209', ' インフラ・物流', '-  -'), ('東日本電信電話株式会社（NTT東日本）', 'https://syukatsu-kaigi.jp/companies/125510', ' IT・通信', '-  -'), ('株式会社セリア', 'https://syukatsu-kaigi.jp/companies/41212', ' 小売り', '-  -'), ('三井不動産レジデンシャル株式会社', 'https://syukatsu-kaigi.jp/companies/122127', ' サービス', '-  -'), ('株式会社タナベコンサルティンググループ', 'https://syukatsu-kaigi.jp/companies/50797', ' サービス', '-  -'), ('株式会社日立製作所', 'https://syukatsu-kaigi.jp/companies/120359', ' メーカー', '-  -'), ('日東電工株式会社', 'https://syukatsu-kaigi.jp/companies/50037', ' メーカー', '-  -'), ('オリンパス株式会社', 'https://syukatsu-kaigi.jp/companies/111416', ' メーカー', '-  -'), ('岡谷鋼機株式会社', 'https://syukatsu-kaigi.jp/companies/37725', ' 商社・卸', '-  -'), ('横河電機株式会社', 'https://syukatsu-kaigi.jp/companies/124748', ' メーカー', '-  -'), ('岩谷産業株式会社', 'https://syukatsu-kaigi.jp/companies/50531', ' 商社・卸', '-  -'), ('富士急行株式会社', 'https://syukatsu-kaigi.jp/companies/49926', ' サービス', '-  -'), ('サントリーホールディングス株式会社', 'https://syukatsu-kaigi.jp/companies/30617', ' サービス', '-  -'), ('ＳＣＳＫ株式会社', 'https://syukatsu-kaigi.jp/companies/121050', ' IT・通信', '-  -'), ('三菱地所株式会社', 'https://syukatsu-kaigi.jp/companies/113545', ' サービス', '-  -'), ('三菱ＵＦＪリサーチ＆コンサルティング株式会社', 'https://syukatsu-kaigi.jp/companies/125745', ' IT・通信', '-  -'), ('株式会社ジェイック', 'https://syukatsu-kaigi.jp/companies/116793', ' サービス', '-  -'), ('キヤノンマーケティングジャパン株式会社', 'https://syukatsu-kaigi.jp/companies/70229', ' 商社・卸', '-  -'), ('ＫＤＤＩ株式会社', 'https://syukatsu-kaigi.jp/companies/94979', ' IT・通信', '-  -'), ('ＴＩＳ株式会社', 'https://syukatsu-kaigi.jp/companies/125727', ' IT・通信', '-  -'), ('住友電気工業株式会社', 'https://syukatsu-kaigi.jp/companies/41553', ' メーカー', '-  -'), ('株式会社オージス総研', 'https://syukatsu-kaigi.jp/companies/44254', ' IT・通信', '-  -'), ('富士通株式会社', 'https://syukatsu-kaigi.jp/companies/115709', ' メーカー', '-  -'), ('日本タタ・コンサルタンシー・サービシズ株式会社', 'https://syukatsu-kaigi.jp/companies/111419', ' IT・通信', '-  -'), ('株式会社ベネッセコーポレーション', 'https://syukatsu-kaigi.jp/companies/631', ' サービス', '-  -'), ('ファナック株式会社', 'https://syukatsu-kaigi.jp/companies/50301', ' メーカー', '-  -'), ('株式会社リクルートスタッフィング', 'https://syukatsu-kaigi.jp/companies/119629', ' サービス', '-  -'), ('株式会社タイトー', 'https://syukatsu-kaigi.jp/companies/121518', ' サービス', '-  -'), ('株式会社東洋新薬', 'https://syukatsu-kaigi.jp/companies/7134', ' メーカー', '-  -'), ('株式会社日本政策金融公庫', 'https://syukatsu-kaigi.jp/companies/76141', ' 金融', '-  -'), ('ＪＳＲ株式会社', 'https://syukatsu-kaigi.jp/companies/79624', ' メーカー', '-  -'), ('小野薬品工業株式会社', 'https://syukatsu-kaigi.jp/companies/20750', ' メーカー', '-  -'), ('ＮＥＣソリューションイノベータ株式会社', 'https://syukatsu-kaigi.jp/companies/124768', ' IT・通信', '-  -'), ('ソフトウエア情報開発株式会社', 'https://syukatsu-kaigi.jp/companies/73625', ' IT・通信', '-  -'), ('日本イーライリリー株式会社', 'https://syukatsu-kaigi.jp/companies/17995', ' メーカー', '-  -'), ('株式会社ニトリ', 'https://syukatsu-kaigi.jp/companies/59635', ' 小売り', '-  -'), ('株式会社日本総合研究所', 'https://syukatsu-kaigi.jp/companies/126060', ' IT・通信', '-  -'), ('出光興産株式会社', 'https://syukatsu-kaigi.jp/companies/121776', ' メーカー', '-  -'), ('アストラゼネカ株式会社', 'https://syukatsu-kaigi.jp/companies/19493', ' メーカー', '-  -'), ('有限責任あずさ監査法人', 'https://syukatsu-kaigi.jp/companies/120889', ' サービス', '-  -'), ('協和キリン株式会社', 'https://syukatsu-kaigi.jp/companies/121902', ' メーカー', '-  -'), ('住友ファーマ株式会社', 'https://syukatsu-kaigi.jp/companies/51466', ' メーカー', '-  -'), ('株式会社ディアーズ・ブレイン', 'https://syukatsu-kaigi.jp/companies/79026', ' サービス', '-  -'), ('栗田工業株式会社', 'https://syukatsu-kaigi.jp/companies/92396', ' メーカー', '-  -'), ('帝人株式会社', 'https://syukatsu-kaigi.jp/companies/51467', ' メーカー', '-  -'))
+キーワード検索 終了 
+帝人株式会社 https://syukatsu-kaigi.jp/companies/51467 { メーカー} {-  -}
+栗田工業株式会社 https://syukatsu-kaigi.jp/companies/92396 { メーカー} {-  -}
+株式会社ディアーズ・ブレイン https://syukatsu-kaigi.jp/companies/79026 { サービス} {-  -}
+住友ファーマ株式会社 https://syukatsu-kaigi.jp/companies/51466 { メーカー} {-  -}
+協和キリン株式会社 https://syukatsu-kaigi.jp/companies/121902 { メーカー} {-  -}
+有限責任あずさ監査法人 https://syukatsu-kaigi.jp/companies/120889 { サービス} {-  -}
+アストラゼネカ株式会社 https://syukatsu-kaigi.jp/companies/19493 { メーカー} {-  -}
+出光興産株式会社 https://syukatsu-kaigi.jp/companies/121776 { メーカー} {-  -}
+株式会社日本総合研究所 https://syukatsu-kaigi.jp/companies/126060 { IT・通信} {-  -}
+株式会社ニトリ https://syukatsu-kaigi.jp/companies/59635 { 小売り} {-  -}
+日本イーライリリー株式会社 https://syukatsu-kaigi.jp/companies/17995 { メーカー} {-  -}
+ソフトウエア情報開発株式会社 https://syukatsu-kaigi.jp/companies/73625 { IT・通信} {-  -}
+ＮＥＣソリューションイノベータ株式会社 https://syukatsu-kaigi.jp/companies/124768 { IT・通信} {-  -}
+小野薬品工業株式会社 https://syukatsu-kaigi.jp/companies/20750 { メーカー} {-  -}
+ＪＳＲ株式会社 https://syukatsu-kaigi.jp/companies/79624 { メーカー} {-  -}
+株式会社日本政策金融公庫 https://syukatsu-kaigi.jp/companies/76141 { 金融} {-  -}
+株式会社東洋新薬 https://syukatsu-kaigi.jp/companies/7134 { メーカー} {-  -}
+株式会社タイトー https://syukatsu-kaigi.jp/companies/121518 { サービス} {-  -}
+株式会社リクルートスタッフィング https://syukatsu-kaigi.jp/companies/119629 { サービス} {-  -}
+ファナック株式会社 https://syukatsu-kaigi.jp/companies/50301 { メーカー} {-  -}
+株式会社ベネッセコーポレーション https://syukatsu-kaigi.jp/companies/631 { サービス} {-  -}
+日本タタ・コンサルタンシー・サービシズ株式会社 https://syukatsu-kaigi.jp/companies/111419 { IT・通信} {-  -}
+富士通株式会社 https://syukatsu-kaigi.jp/companies/115709 { メーカー} {-  -}
+株式会社オージス総研 https://syukatsu-kaigi.jp/companies/44254 { IT・通信} {-  -}
+住友電気工業株式会社 https://syukatsu-kaigi.jp/companies/41553 { メーカー} {-  -}
+ＴＩＳ株式会社 https://syukatsu-kaigi.jp/companies/125727 { IT・通信} {-  -}
+ＫＤＤＩ株式会社 https://syukatsu-kaigi.jp/companies/94979 { IT・通信} {-  -}
+キヤノンマーケティングジャパン株式会社 https://syukatsu-kaigi.jp/companies/70229 { 商社・卸} {-  -}
+株式会社ジェイック https://syukatsu-kaigi.jp/companies/116793 { サービス} {-  -}
+三菱ＵＦＪリサーチ＆コンサルティング株式会社 https://syukatsu-kaigi.jp/companies/125745 { IT・通信} {-  -}
+三菱地所株式会社 https://syukatsu-kaigi.jp/companies/113545 { サービス} {-  -}
+ＳＣＳＫ株式会社 https://syukatsu-kaigi.jp/companies/121050 { IT・通信} {-  -}
+サントリーホールディングス株式会社 https://syukatsu-kaigi.jp/companies/30617 { サービス} {-  -}
+富士急行株式会社 https://syukatsu-kaigi.jp/companies/49926 { サービス} {-  -}
+岩谷産業株式会社 https://syukatsu-kaigi.jp/companies/50531 { 商社・卸} {-  -}
+横河電機株式会社 https://syukatsu-kaigi.jp/companies/124748 { メーカー} {-  -}
+岡谷鋼機株式会社 https://syukatsu-kaigi.jp/companies/37725 { 商社・卸} {-  -}
+オリンパス株式会社 https://syukatsu-kaigi.jp/companies/111416 { メーカー} {-  -}
+日東電工株式会社 https://syukatsu-kaigi.jp/companies/50037 { メーカー} {-  -}
+株式会社日立製作所 https://syukatsu-kaigi.jp/companies/120359 { メーカー} {-  -}
+株式会社タナベコンサルティンググループ https://syukatsu-kaigi.jp/companies/50797 { サービス} {-  -}
+三井不動産レジデンシャル株式会社 https://syukatsu-kaigi.jp/companies/122127 { サービス} {-  -}
+株式会社セリア https://syukatsu-kaigi.jp/companies/41212 { 小売り} {-  -}
+東日本電信電話株式会社（NTT東日本） https://syukatsu-kaigi.jp/companies/125510 { IT・通信} {-  -}
+電源開発株式会社 https://syukatsu-kaigi.jp/companies/101209 { インフラ・物流} {-  -}
+日本電気株式会社（NEC） https://syukatsu-kaigi.jp/companies/122540 { メーカー} {-  -}
+富士フイルム株式会社 https://syukatsu-kaigi.jp/companies/122524 { メーカー} {-  -}
+株式会社ラウンドワン https://syukatsu-kaigi.jp/companies/27601 { サービス} {-  -}
+株式会社ディスコ https://syukatsu-kaigi.jp/companies/108653 { メーカー} {-  -}
+株式会社島津製作所 https://syukatsu-kaigi.jp/companies/41380 { メーカー} {-  -}
+ＭＳＤ株式会社 https://syukatsu-kaigi.jp/companies/122423 { メーカー} {-  -}
+日本ヒューレット・パッカード合同会社 https://syukatsu-kaigi.jp/companies/117082 { メーカー} {-  -}
+日本郵船株式会社 https://syukatsu-kaigi.jp/companies/108840 { インフラ・物流} {-  -}
+積水化学工業株式会社 https://syukatsu-kaigi.jp/companies/44885 { メーカー} {-  -}
+中部電力株式会社 https://syukatsu-kaigi.jp/companies/51077 { インフラ・物流} {-  -}
+株式会社豊田自動織機 https://syukatsu-kaigi.jp/companies/51841 { メーカー} {-  -}
+東京海上日動システムズ株式会社 https://syukatsu-kaigi.jp/companies/109015 { IT・通信} {-  -}
+ブラザー工業株式会社 https://syukatsu-kaigi.jp/companies/49351 { メーカー} {-  -}
+アサヒビール株式会社 https://syukatsu-kaigi.jp/companies/124753 { メーカー} {-  -}
+株式会社資生堂 https://syukatsu-kaigi.jp/companies/92969 { メーカー} {-  -}
+デル・テクノロジーズ株式会社 https://syukatsu-kaigi.jp/companies/112767 { 商社・卸} {-  -}
+ＤＭＧ森精機株式会社 https://syukatsu-kaigi.jp/companies/50238 { メーカー} {-  -}
+株式会社ユニクロ https://syukatsu-kaigi.jp/companies/14769 { 小売り} {-  -}
+株式会社三井住友銀行 https://syukatsu-kaigi.jp/companies/78993 { 金融} {-  -}
+第一三共株式会社 https://syukatsu-kaigi.jp/companies/73294 { メーカー} {-  -}
+株式会社サイバーエージェント https://syukatsu-kaigi.jp/companies/112480 { IT・通信} {-  -}
+セイコーエプソン株式会社 https://syukatsu-kaigi.jp/companies/44285 { メーカー} {-  -}
+東京海上日動火災保険株式会社 https://syukatsu-kaigi.jp/companies/119260 { 金融} {-  -}
+ヤマハ株式会社 https://syukatsu-kaigi.jp/companies/41387 { メーカー} {-  -}
+関西電力株式会社 https://syukatsu-kaigi.jp/companies/47232 { インフラ・物流} {-  -}
+株式会社タマディック https://syukatsu-kaigi.jp/companies/79029 { サービス} {-  -}
+株式会社電通総研 https://syukatsu-kaigi.jp/companies/125423 { IT・通信} {-  -}
+株式会社インテージ https://syukatsu-kaigi.jp/companies/117406 { IT・通信} {-  -}
+九州電力株式会社 https://syukatsu-kaigi.jp/companies/18492 { インフラ・物流} {-  -}
+丸紅株式会社 https://syukatsu-kaigi.jp/companies/124907 { 商社・卸} {-  -}
+株式会社村田製作所 https://syukatsu-kaigi.jp/companies/51282 { メーカー} {-  -}
+株式会社日立ソリューションズ https://syukatsu-kaigi.jp/companies/85910 { IT・通信} {-  -}
+中外製薬株式会社 https://syukatsu-kaigi.jp/companies/121983 { メーカー} {-  -}
+アビームコンサルティング株式会社 https://syukatsu-kaigi.jp/companies/84200 { サービス} {-  -}
+株式会社小松製作所 https://syukatsu-kaigi.jp/companies/73242 { メーカー} {-  -}
+パナソニックホールディングス株式会社 https://syukatsu-kaigi.jp/companies/50745 { サービス} {-  -}
+伊藤忠テクノソリューションズ株式会社 https://syukatsu-kaigi.jp/companies/94487 { IT・通信} {-  -}
+日本IBM株式会社 https://syukatsu-kaigi.jp/companies/111910 { IT・通信} {-  -}
+株式会社オリエンタルランド https://syukatsu-kaigi.jp/companies/98499 { サービス} {-  -}
+株式会社デンソー https://syukatsu-kaigi.jp/companies/51864 { メーカー} {-  -}
+楽天グループ株式会社 https://syukatsu-kaigi.jp/companies/122934 { IT・通信} {-  -}
+三井不動産株式会社 https://syukatsu-kaigi.jp/companies/92685 { サービス} {-  -}
+株式会社キーエンス https://syukatsu-kaigi.jp/companies/34080 { メーカー} {-  -}
+武田薬品工業株式会社 https://syukatsu-kaigi.jp/companies/43694 { メーカー} {-  -}
+株式会社ＮＴＴドコモ https://syukatsu-kaigi.jp/companies/125598 { IT・通信} {-  -}
+アステラス製薬株式会社 https://syukatsu-kaigi.jp/companies/122076 { メーカー} {-  -}
+味の素株式会社 https://syukatsu-kaigi.jp/companies/123541 { メーカー} {-  -}
+三菱商事株式会社 https://syukatsu-kaigi.jp/companies/122014 { 商社・卸} {-  -}
+野村證券株式会社 https://syukatsu-kaigi.jp/companies/113065 { 金融} {-  -}
+アクセンチュア株式会社 https://syukatsu-kaigi.jp/companies/94735 { サービス} {-  -}
+三井物産株式会社 https://syukatsu-kaigi.jp/companies/124900 { 商社・卸} {-  -}
+伊藤忠商事株式会社 https://syukatsu-kaigi.jp/companies/124896 { 商社・卸} {-  -}
+住友商事株式会社 https://syukatsu-kaigi.jp/companies/125043 { 商社・卸} {-  -}
+トヨタ自動車株式会社 https://syukatsu-kaigi.jp/companies/32463 { メーカー} {-  -}
+スターバックスコーヒージャパン株式会社 https://syukatsu-kaigi.jp/companies/122645 { サービス} {-  -}
+https://syukatsu-kaigi.jp/companies/search
+ログ書き込み
+プロキシ設定NG
+2024-03-26 09:09:31.803609
+Traceback (most recent call last):
+  File "E:\project\9.21(IZANAMI)\IZNAMI_20240304\main\IZANAMI1.py", line 1604, in <module>
+    g_val.text_st_f1.place(x=200, y=155)
+AttributeError: 'str' object has no attribute 'place'
+
+2024-03-26 09:08:38.894505
+Traceback (most recent call last):
+  File "E:\project\9.21(IZANAMI)\IZNAMI_20240304\main\comapyny_get_shuukatsu_v101.py", line 430, in val_list_shuukatsu_get
+    g_val.driver = webdriver.Chrome(options=g_val.option,service=chrome_service)
+  File "C:\Users\PJ\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+  File "C:\Users\PJ\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 53, in __init__
+    self.service.start()
+  File "C:\Users\PJ\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\common\service.py", line 98, in start
+    self._start_process(self._path)
+  File "C:\Users\PJ\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\common\service.py", line 204, in _start_process
+    self.process = subprocess.Popen(
+  File "C:\Users\PJ\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 837, in __init__
+    errread, errwrite) = self._get_handles(stdin, stdout, stderr)
+  File "C:\Users\PJ\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 1304, in _get_handles
+    c2pwrite = msvcrt.get_osfhandle(stdout.fileno())
+ValueError: I/O operation on closed file
+
+2024-03-26 08:22:43.212222
+(('スターバックスコーヒージャパン株式会社', 'https://syukatsu-kaigi.jp/companies/122645', ' サービス', '-  -'), ('トヨタ自動車株式会社', 'https://syukatsu-kaigi.jp/companies/32463', ' メーカー', '-  -'), ('住友商事株式会社', 'https://syukatsu-kaigi.jp/companies/125043', ' 商社・卸', '-  -'), ('伊藤忠商事株式会社', 'https://syukatsu-kaigi.jp/companies/124896', ' 商社・卸', '-  -'), ('三井物産株式会社', 'https://syukatsu-kaigi.jp/companies/124900', ' 商社・卸', '-  -'), ('アクセンチュア株式会社', 'https://syukatsu-kaigi.jp/companies/94735', ' サービス', '-  -'), ('野村證券株式会社', 'https://syukatsu-kaigi.jp/companies/113065', ' 金融', '-  -'), ('三菱商事株式会社', 'https://syukatsu-kaigi.jp/companies/122014', ' 商社・卸', '-  -'), ('味の素株式会社', 'https://syukatsu-kaigi.jp/companies/123541', ' メーカー', '-  -'), ('アステラス製薬株式会社', 'https://syukatsu-kaigi.jp/companies/122076', ' メーカー', '-  -'), ('株式会社ＮＴＴドコモ', 'https://syukatsu-kaigi.jp/companies/125598', ' IT・通信', '-  -'), ('武田薬品工業株式会社', 'https://syukatsu-kaigi.jp/companies/43694', ' メーカー', '-  -'), ('株式会社キーエンス', 'https://syukatsu-kaigi.jp/companies/34080', ' メーカー', '-  -'), ('三井不動産株式会社', 'https://syukatsu-kaigi.jp/companies/92685', ' サービス', '-  -'), ('楽天グループ株式会社', 'https://syukatsu-kaigi.jp/companies/122934', ' IT・通信', '-  -'), ('株式会社デンソー', 'https://syukatsu-kaigi.jp/companies/51864', ' メーカー', '-  -'), ('株式会社オリエンタルランド', 'https://syukatsu-kaigi.jp/companies/98499', ' サービス', '-  -'), ('日本IBM株式会社', 'https://syukatsu-kaigi.jp/companies/111910', ' IT・通信', '-  -'), ('伊藤忠テクノソリューションズ株式会社', 'https://syukatsu-kaigi.jp/companies/94487', ' IT・通信', '-  -'), ('パナソニックホールディングス株式会社', 'https://syukatsu-kaigi.jp/companies/50745', ' サービス', '-  -'), ('株式会社小松製作所', 'https://syukatsu-kaigi.jp/companies/73242', ' メーカー', '-  -'), ('アビームコンサルティング株式会社', 'https://syukatsu-kaigi.jp/companies/84200', ' サービス', '-  -'), ('中外製薬株式会社', 'https://syukatsu-kaigi.jp/companies/121983', ' メーカー', '-  -'), ('株式会社日立ソリューションズ', 'https://syukatsu-kaigi.jp/companies/85910', ' IT・通信', '-  -'), ('株式会社村田製作所', 'https://syukatsu-kaigi.jp/companies/51282', ' メーカー', '-  -'), ('丸紅株式会社', 'https://syukatsu-kaigi.jp/companies/124907', ' 商社・卸', '-  -'), ('九州電力株式会社', 'https://syukatsu-kaigi.jp/companies/18492', ' インフラ・物流', '-  -'), ('株式会社インテージ', 'https://syukatsu-kaigi.jp/companies/117406', ' IT・通信', '-  -'), ('株式会社電通総研', 'https://syukatsu-kaigi.jp/companies/125423', ' IT・通信', '-  -'), ('株式会社タマディック', 'https://syukatsu-kaigi.jp/companies/79029', ' サービス', '-  -'), ('関西電力株式会社', 'https://syukatsu-kaigi.jp/companies/47232', ' インフラ・物流', '-  -'), ('ヤマハ株式会社', 'https://syukatsu-kaigi.jp/companies/41387', ' メーカー', '-  -'), ('東京海上日動火災保険株式会社', 'https://syukatsu-kaigi.jp/companies/119260', ' 金融', '-  -'), ('セイコーエプソン株式会社', 'https://syukatsu-kaigi.jp/companies/44285', ' メーカー', '-  -'), ('株式会社サイバーエージェント', 'https://syukatsu-kaigi.jp/companies/112480', ' IT・通信', '-  -'), ('第一三共株式会社', 'https://syukatsu-kaigi.jp/companies/73294', ' メーカー', '-  -'), ('株式会社三井住友銀行', 'https://syukatsu-kaigi.jp/companies/78993', ' 金融', '-  -'), ('株式会社ユニクロ', 'https://syukatsu-kaigi.jp/companies/14769', ' 小売り', '-  -'), ('ＤＭＧ森精機株式会社', 'https://syukatsu-kaigi.jp/companies/50238', ' メーカー', '-  -'), ('デル・テクノロジーズ株式会社', 'https://syukatsu-kaigi.jp/companies/112767', ' 商社・卸', '-  -'), ('株式会社資生堂', 'https://syukatsu-kaigi.jp/companies/92969', ' メーカー', '-  -'), ('アサヒビール株式会社', 'https://syukatsu-kaigi.jp/companies/124753', ' メーカー', '-  -'), ('ブラザー工業株式会社', 'https://syukatsu-kaigi.jp/companies/49351', ' メーカー', '-  -'), ('東京海上日動システムズ株式会社', 'https://syukatsu-kaigi.jp/companies/109015', ' IT・通信', '-  -'), ('株式会社豊田自動織機', 'https://syukatsu-kaigi.jp/companies/51841', ' メーカー', '-  -'), ('中部電力株式会社', 'https://syukatsu-kaigi.jp/companies/51077', ' インフラ・物流', '-  -'), ('積水化学工業株式会社', 'https://syukatsu-kaigi.jp/companies/44885', ' メーカー', '-  -'), ('日本郵船株式会社', 'https://syukatsu-kaigi.jp/companies/108840', ' インフラ・物流', '-  -'), ('日本ヒューレット・パッカード合同会社', 'https://syukatsu-kaigi.jp/companies/117082', ' メーカー', '-  -'), ('ＭＳＤ株式会社', 'https://syukatsu-kaigi.jp/companies/122423', ' メーカー', '-  -'), ('株式会社島津製作所', 'https://syukatsu-kaigi.jp/companies/41380', ' メーカー', '-  -'), ('株式会社ディスコ', 'https://syukatsu-kaigi.jp/companies/108653', ' メーカー', '-  -'), ('株式会社ラウンドワン', 'https://syukatsu-kaigi.jp/companies/27601', ' サービス', '-  -'), ('富士フイルム株式会社', 'https://syukatsu-kaigi.jp/companies/122524', ' メーカー', '-  -'), ('日本電気株式会社（NEC）', 'https://syukatsu-kaigi.jp/companies/122540', ' メーカー', '-  -'), ('電源開発株式会社', 'https://syukatsu-kaigi.jp/companies/101209', ' インフラ・物流', '-  -'), ('東日本電信電話株式会社（NTT東日本）', 'https://syukatsu-kaigi.jp/companies/125510', ' IT・通信', '-  -'), ('株式会社セリア', 'https://syukatsu-kaigi.jp/companies/41212', ' 小売り', '-  -'), ('三井不動産レジデンシャル株式会社', 'https://syukatsu-kaigi.jp/companies/122127', ' サービス', '-  -'), ('株式会社タナベコンサルティンググループ', 'https://syukatsu-kaigi.jp/companies/50797', ' サービス', '-  -'), ('株式会社日立製作所', 'https://syukatsu-kaigi.jp/companies/120359', ' メーカー', '-  -'), ('日東電工株式会社', 'https://syukatsu-kaigi.jp/companies/50037', ' メーカー', '-  -'), ('オリンパス株式会社', 'https://syukatsu-kaigi.jp/companies/111416', ' メーカー', '-  -'), ('岡谷鋼機株式会社', 'https://syukatsu-kaigi.jp/companies/37725', ' 商社・卸', '-  -'), ('横河電機株式会社', 'https://syukatsu-kaigi.jp/companies/124748', ' メーカー', '-  -'), ('岩谷産業株式会社', 'https://syukatsu-kaigi.jp/companies/50531', ' 商社・卸', '-  -'), ('富士急行株式会社', 'https://syukatsu-kaigi.jp/companies/49926', ' サービス', '-  -'), ('サントリーホールディングス株式会社', 'https://syukatsu-kaigi.jp/companies/30617', ' サービス', '-  -'), ('ＳＣＳＫ株式会社', 'https://syukatsu-kaigi.jp/companies/121050', ' IT・通信', '-  -'), ('三菱地所株式会社', 'https://syukatsu-kaigi.jp/companies/113545', ' サービス', '-  -'), ('三菱ＵＦＪリサーチ＆コンサルティング株式会社', 'https://syukatsu-kaigi.jp/companies/125745', ' IT・通信', '-  -'), ('株式会社ジェイック', 'https://syukatsu-kaigi.jp/companies/116793', ' サービス', '-  -'), ('キヤノンマーケティングジャパン株式会社', 'https://syukatsu-kaigi.jp/companies/70229', ' 商社・卸', '-  -'), ('ＫＤＤＩ株式会社', 'https://syukatsu-kaigi.jp/companies/94979', ' IT・通信', '-  -'), ('ＴＩＳ株式会社', 'https://syukatsu-kaigi.jp/companies/125727', ' IT・通信', '-  -'), ('住友電気工業株式会社', 'https://syukatsu-kaigi.jp/companies/41553', ' メーカー', '-  -'), ('株式会社オージス総研', 'https://syukatsu-kaigi.jp/companies/44254', ' IT・通信', '-  -'), ('富士通株式会社', 'https://syukatsu-kaigi.jp/companies/115709', ' メーカー', '-  -'), ('日本タタ・コンサルタンシー・サービシズ株式会社', 'https://syukatsu-kaigi.jp/companies/111419', ' IT・通信', '-  -'), ('株式会社ベネッセコーポレーション', 'https://syukatsu-kaigi.jp/companies/631', ' サービス', '-  -'), ('ファナック株式会社', 'https://syukatsu-kaigi.jp/companies/50301', ' メーカー', '-  -'), ('株式会社リクルートスタッフィング', 'https://syukatsu-kaigi.jp/companies/119629', ' サービス', '-  -'), ('株式会社タイトー', 'https://syukatsu-kaigi.jp/companies/121518', ' サービス', '-  -'), ('株式会社東洋新薬', 'https://syukatsu-kaigi.jp/companies/7134', ' メーカー', '-  -'), ('株式会社日本政策金融公庫', 'https://syukatsu-kaigi.jp/companies/76141', ' 金融', '-  -'), ('ＪＳＲ株式会社', 'https://syukatsu-kaigi.jp/companies/79624', ' メーカー', '-  -'), ('小野薬品工業株式会社', 'https://syukatsu-kaigi.jp/companies/20750', ' メーカー', '-  -'), ('ＮＥＣソリューションイノベータ株式会社', 'https://syukatsu-kaigi.jp/companies/124768', ' IT・通信', '-  -'), ('ソフトウエア情報開発株式会社', 'https://syukatsu-kaigi.jp/companies/73625', ' IT・通信', '-  -'), ('日本イーライリリー株式会社', 'https://syukatsu-kaigi.jp/companies/17995', ' メーカー', '-  -'), ('株式会社ニトリ', 'https://syukatsu-kaigi.jp/companies/59635', ' 小売り', '-  -'), ('株式会社日本総合研究所', 'https://syukatsu-kaigi.jp/companies/126060', ' IT・通信', '-  -'), ('出光興産株式会社', 'https://syukatsu-kaigi.jp/companies/121776', ' メーカー', '-  -'), ('アストラゼネカ株式会社', 'https://syukatsu-kaigi.jp/companies/19493', ' メーカー', '-  -'), ('有限責任あずさ監査法人', 'https://syukatsu-kaigi.jp/companies/120889', ' サービス', '-  -'), ('協和キリン株式会社', 'https://syukatsu-kaigi.jp/companies/121902', ' メーカー', '-  -'), ('住友ファーマ株式会社', 'https://syukatsu-kaigi.jp/companies/51466', ' メーカー', '-  -'), ('株式会社ディアーズ・ブレイン', 'https://syukatsu-kaigi.jp/companies/79026', ' サービス', '-  -'), ('栗田工業株式会社', 'https://syukatsu-kaigi.jp/companies/92396', ' メーカー', '-  -'), ('帝人株式会社', 'https://syukatsu-kaigi.jp/companies/51467', ' メーカー', '-  -'))
+キーワード検索 終了 
+帝人株式会社 https://syukatsu-kaigi.jp/companies/51467 { メーカー} {-  -}
+栗田工業株式会社 https://syukatsu-kaigi.jp/companies/92396 { メーカー} {-  -}
+株式会社ディアーズ・ブレイン https://syukatsu-kaigi.jp/companies/79026 { サービス} {-  -}
+住友ファーマ株式会社 https://syukatsu-kaigi.jp/companies/51466 { メーカー} {-  -}
+協和キリン株式会社 https://syukatsu-kaigi.jp/companies/121902 { メーカー} {-  -}
+有限責任あずさ監査法人 https://syukatsu-kaigi.jp/companies/120889 { サービス} {-  -}
+アストラゼネカ株式会社 https://syukatsu-kaigi.jp/companies/19493 { メーカー} {-  -}
+出光興産株式会社 https://syukatsu-kaigi.jp/companies/121776 { メーカー} {-  -}
+株式会社日本総合研究所 https://syukatsu-kaigi.jp/companies/126060 { IT・通信} {-  -}
+株式会社ニトリ https://syukatsu-kaigi.jp/companies/59635 { 小売り} {-  -}
+日本イーライリリー株式会社 https://syukatsu-kaigi.jp/companies/17995 { メーカー} {-  -}
+ソフトウエア情報開発株式会社 https://syukatsu-kaigi.jp/companies/73625 { IT・通信} {-  -}
+ＮＥＣソリューションイノベータ株式会社 https://syukatsu-kaigi.jp/companies/124768 { IT・通信} {-  -}
+小野薬品工業株式会社 https://syukatsu-kaigi.jp/companies/20750 { メーカー} {-  -}
+ＪＳＲ株式会社 https://syukatsu-kaigi.jp/companies/79624 { メーカー} {-  -}
+株式会社日本政策金融公庫 https://syukatsu-kaigi.jp/companies/76141 { 金融} {-  -}
+株式会社東洋新薬 https://syukatsu-kaigi.jp/companies/7134 { メーカー} {-  -}
+株式会社タイトー https://syukatsu-kaigi.jp/companies/121518 { サービス} {-  -}
+株式会社リクルートスタッフィング https://syukatsu-kaigi.jp/companies/119629 { サービス} {-  -}
+ファナック株式会社 https://syukatsu-kaigi.jp/companies/50301 { メーカー} {-  -}
+株式会社ベネッセコーポレーション https://syukatsu-kaigi.jp/companies/631 { サービス} {-  -}
+日本タタ・コンサルタンシー・サービシズ株式会社 https://syukatsu-kaigi.jp/companies/111419 { IT・通信} {-  -}
+富士通株式会社 https://syukatsu-kaigi.jp/companies/115709 { メーカー} {-  -}
+株式会社オージス総研 https://syukatsu-kaigi.jp/companies/44254 { IT・通信} {-  -}
+住友電気工業株式会社 https://syukatsu-kaigi.jp/companies/41553 { メーカー} {-  -}
+ＴＩＳ株式会社 https://syukatsu-kaigi.jp/companies/125727 { IT・通信} {-  -}
+ＫＤＤＩ株式会社 https://syukatsu-kaigi.jp/companies/94979 { IT・通信} {-  -}
+キヤノンマーケティングジャパン株式会社 https://syukatsu-kaigi.jp/companies/70229 { 商社・卸} {-  -}
+株式会社ジェイック https://syukatsu-kaigi.jp/companies/116793 { サービス} {-  -}
+三菱ＵＦＪリサーチ＆コンサルティング株式会社 https://syukatsu-kaigi.jp/companies/125745 { IT・通信} {-  -}
+三菱地所株式会社 https://syukatsu-kaigi.jp/companies/113545 { サービス} {-  -}
+ＳＣＳＫ株式会社 https://syukatsu-kaigi.jp/companies/121050 { IT・通信} {-  -}
+サントリーホールディングス株式会社 https://syukatsu-kaigi.jp/companies/30617 { サービス} {-  -}
+富士急行株式会社 https://syukatsu-kaigi.jp/companies/49926 { サービス} {-  -}
+岩谷産業株式会社 https://syukatsu-kaigi.jp/companies/50531 { 商社・卸} {-  -}
+横河電機株式会社 https://syukatsu-kaigi.jp/companies/124748 { メーカー} {-  -}
+岡谷鋼機株式会社 https://syukatsu-kaigi.jp/companies/37725 { 商社・卸} {-  -}
+オリンパス株式会社 https://syukatsu-kaigi.jp/companies/111416 { メーカー} {-  -}
+日東電工株式会社 https://syukatsu-kaigi.jp/companies/50037 { メーカー} {-  -}
+株式会社日立製作所 https://syukatsu-kaigi.jp/companies/120359 { メーカー} {-  -}
+株式会社タナベコンサルティンググループ https://syukatsu-kaigi.jp/companies/50797 { サービス} {-  -}
+三井不動産レジデンシャル株式会社 https://syukatsu-kaigi.jp/companies/122127 { サービス} {-  -}
+株式会社セリア https://syukatsu-kaigi.jp/companies/41212 { 小売り} {-  -}
+東日本電信電話株式会社（NTT東日本） https://syukatsu-kaigi.jp/companies/125510 { IT・通信} {-  -}
+電源開発株式会社 https://syukatsu-kaigi.jp/companies/101209 { インフラ・物流} {-  -}
+日本電気株式会社（NEC） https://syukatsu-kaigi.jp/companies/122540 { メーカー} {-  -}
+富士フイルム株式会社 https://syukatsu-kaigi.jp/companies/122524 { メーカー} {-  -}
+株式会社ラウンドワン https://syukatsu-kaigi.jp/companies/27601 { サービス} {-  -}
+株式会社ディスコ https://syukatsu-kaigi.jp/companies/108653 { メーカー} {-  -}
+株式会社島津製作所 https://syukatsu-kaigi.jp/companies/41380 { メーカー} {-  -}
+ＭＳＤ株式会社 https://syukatsu-kaigi.jp/companies/122423 { メーカー} {-  -}
+日本ヒューレット・パッカード合同会社 https://syukatsu-kaigi.jp/companies/117082 { メーカー} {-  -}
+日本郵船株式会社 https://syukatsu-kaigi.jp/companies/108840 { インフラ・物流} {-  -}
+積水化学工業株式会社 https://syukatsu-kaigi.jp/companies/44885 { メーカー} {-  -}
+中部電力株式会社 https://syukatsu-kaigi.jp/companies/51077 { インフラ・物流} {-  -}
+株式会社豊田自動織機 https://syukatsu-kaigi.jp/companies/51841 { メーカー} {-  -}
+東京海上日動システムズ株式会社 https://syukatsu-kaigi.jp/companies/109015 { IT・通信} {-  -}
+ブラザー工業株式会社 https://syukatsu-kaigi.jp/companies/49351 { メーカー} {-  -}
+アサヒビール株式会社 https://syukatsu-kaigi.jp/companies/124753 { メーカー} {-  -}
+株式会社資生堂 https://syukatsu-kaigi.jp/companies/92969 { メーカー} {-  -}
+デル・テクノロジーズ株式会社 https://syukatsu-kaigi.jp/companies/112767 { 商社・卸} {-  -}
+ＤＭＧ森精機株式会社 https://syukatsu-kaigi.jp/companies/50238 { メーカー} {-  -}
+株式会社ユニクロ https://syukatsu-kaigi.jp/companies/14769 { 小売り} {-  -}
+株式会社三井住友銀行 https://syukatsu-kaigi.jp/companies/78993 { 金融} {-  -}
+第一三共株式会社 https://syukatsu-kaigi.jp/companies/73294 { メーカー} {-  -}
+株式会社サイバーエージェント https://syukatsu-kaigi.jp/companies/112480 { IT・通信} {-  -}
+セイコーエプソン株式会社 https://syukatsu-kaigi.jp/companies/44285 { メーカー} {-  -}
+東京海上日動火災保険株式会社 https://syukatsu-kaigi.jp/companies/119260 { 金融} {-  -}
+ヤマハ株式会社 https://syukatsu-kaigi.jp/companies/41387 { メーカー} {-  -}
+関西電力株式会社 https://syukatsu-kaigi.jp/companies/47232 { インフラ・物流} {-  -}
+株式会社タマディック https://syukatsu-kaigi.jp/companies/79029 { サービス} {-  -}
+株式会社電通総研 https://syukatsu-kaigi.jp/companies/125423 { IT・通信} {-  -}
+株式会社インテージ https://syukatsu-kaigi.jp/companies/117406 { IT・通信} {-  -}
+九州電力株式会社 https://syukatsu-kaigi.jp/companies/18492 { インフラ・物流} {-  -}
+丸紅株式会社 https://syukatsu-kaigi.jp/companies/124907 { 商社・卸} {-  -}
+株式会社村田製作所 https://syukatsu-kaigi.jp/companies/51282 { メーカー} {-  -}
+株式会社日立ソリューションズ https://syukatsu-kaigi.jp/companies/85910 { IT・通信} {-  -}
+中外製薬株式会社 https://syukatsu-kaigi.jp/companies/121983 { メーカー} {-  -}
+アビームコンサルティング株式会社 https://syukatsu-kaigi.jp/companies/84200 { サービス} {-  -}
+株式会社小松製作所 https://syukatsu-kaigi.jp/companies/73242 { メーカー} {-  -}
+パナソニックホールディングス株式会社 https://syukatsu-kaigi.jp/companies/50745 { サービス} {-  -}
+伊藤忠テクノソリューションズ株式会社 https://syukatsu-kaigi.jp/companies/94487 { IT・通信} {-  -}
+日本IBM株式会社 https://syukatsu-kaigi.jp/companies/111910 { IT・通信} {-  -}
+株式会社オリエンタルランド https://syukatsu-kaigi.jp/companies/98499 { サービス} {-  -}
+株式会社デンソー https://syukatsu-kaigi.jp/companies/51864 { メーカー} {-  -}
+楽天グループ株式会社 https://syukatsu-kaigi.jp/companies/122934 { IT・通信} {-  -}
+三井不動産株式会社 https://syukatsu-kaigi.jp/companies/92685 { サービス} {-  -}
+株式会社キーエンス https://syukatsu-kaigi.jp/companies/34080 { メーカー} {-  -}
+武田薬品工業株式会社 https://syukatsu-kaigi.jp/companies/43694 { メーカー} {-  -}
+株式会社ＮＴＴドコモ https://syukatsu-kaigi.jp/companies/125598 { IT・通信} {-  -}
+アステラス製薬株式会社 https://syukatsu-kaigi.jp/companies/122076 { メーカー} {-  -}
+味の素株式会社 https://syukatsu-kaigi.jp/companies/123541 { メーカー} {-  -}
+三菱商事株式会社 https://syukatsu-kaigi.jp/companies/122014 { 商社・卸} {-  -}
+野村證券株式会社 https://syukatsu-kaigi.jp/companies/113065 { 金融} {-  -}
+アクセンチュア株式会社 https://syukatsu-kaigi.jp/companies/94735 { サービス} {-  -}
+三井物産株式会社 https://syukatsu-kaigi.jp/companies/124900 { 商社・卸} {-  -}
+伊藤忠商事株式会社 https://syukatsu-kaigi.jp/companies/124896 { 商社・卸} {-  -}
+住友商事株式会社 https://syukatsu-kaigi.jp/companies/125043 { 商社・卸} {-  -}
+トヨタ自動車株式会社 https://syukatsu-kaigi.jp/companies/32463 { メーカー} {-  -}
+スターバックスコーヒージャパン株式会社 https://syukatsu-kaigi.jp/companies/122645 { サービス} {-  -}
+https://syukatsu-kaigi.jp/companies/search
+ログ書き込み
+プロキシ設定NG
+2024-03-26 08:21:35.255767
+Traceback (most recent call last):
+  File "E:\project\9.21(IZANAMI)\IZNAMI_20240304\main\comapyny_get_tabelog_v101.py", line 399, in val_list_tabelog_get
+    g_val.driver.get(main_ulr)
+  File "C:\Users\PJ\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 356, in get
+    self.execute(Command.GET, {"url": url})
+  File "C:\Users\PJ\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\PJ\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome-headless-shell=122.0.6261.129)
+Stacktrace:
+	GetHandleVerifier [0x00F58D03+51395]
+	(No symbol) [0x00EC5F61]
+	(No symbol) [0x00D7E13A]
+	(No symbol) [0x00D625F2]
+	(No symbol) [0x00DD9B2B]
+	(No symbol) [0x00DE9E66]
+	(No symbol) [0x00DD3C26]
+	(No symbol) [0x00DAC629]
+	(No symbol) [0x00DAD40D]
+	GetHandleVerifier [0x012D68D3+3712147]
+	GetHandleVerifier [0x01315CBA+3971194]
+	GetHandleVerifier [0x01310FA8+3951464]
+	GetHandleVerifier [0x01009D09+776393]
+	(No symbol) [0x00ED1734]
+	(No symbol) [0x00ECC618]
+	(No symbol) [0x00ECC7C9]
+	(No symbol) [0x00EBDDF0]
+	BaseThreadInitThunk [0x767D7BA9+25]
+	RtlInitializeExceptionChain [0x77DDBD2B+107]
+	RtlClearBits [0x77DDBCAF+191]
+
+
+2024-03-21 17:25:34.654886
+詳細検索 完了
+ホルモン 焼肉店 焼肉もちお 東京都 港区 {東京都港区北青山３丁目５−２ EVOL青山 B1 } https://www.instagram.com/mochio.omotesando {} {03-6804-6168 } {} {https://www.google.co.jp/maps/search/焼肉もちお 
+東京都港区北青山3-5-2?gl=jp&h1=jp&gws_rd=cr} 4.7 {} 定休日 16時00分～2時00分 16時00分～2時00分 16時00分～2時00分 16時00分～2時00分 16時00分～2時00分 定休日 {
+2023年8月10日
+} {
+
+03-6804-6168
+
+} {
+ぴーたんたん（4843）
+} {
+東京都港区北青山3-5-2} https://tabelog.com/tokyo/A1306/A130602/13287286/
+出力OK
+SYS_ERR Check1
+Old List check1
+ブラックリストdomainチェック1
+ブラックリスト番号1チェック1
+FAX-
+Tell03-6804-6168 
+mail-
+URLhttps://www.instagram.com/mochio.omotesando
+Site URLhttps://www.google.co.jp/maps/search/焼肉もちお 
+東京都港区北青山3-5-2?gl=jp&h1=jp&gws_rd=cr
+Address東京都港区北青山３丁目５−２ EVOL青山 B1 
+OUT :Dribv2Campany Nanme焼肉もちお
+ブラックリストmailチェック0
+ブラックリストmailチェック0
+ブラックリストmailチェック0
+問い合わせ検索再リサーチ
+サイト内問い合わせ検索中No:7
+サイト内問い合わせ検索中No:6
+サイト内問い合わせ検索中No:5
+サイト内問い合わせ検索中No:4
+サイト内問い合わせ検索中No:3
+サイト内問い合わせ検索中No:2
+サイト内問い合わせ検索中No:1
+ブラックリストmailチェック0
+サイト内タグ個数0
+サイト内タグ検索
+サイト内検索
+詳細検索https://www.instagram.com/mochio.omotesando
+詳細検索開始
+検索終了
+土曜日　営業時間16時00分～2時00分
+金曜日　営業時間16時00分～2時00分
+水曜日　営業時間16時00分～2時00分
+火曜日　営業時間16時00分～2時00分
+月曜日　営業時間定休日
+日曜日　営業時間定休日
+平均評価4.7
+グーグル番号03-6804-6168 
+グーグル住所東京都港区北青山３丁目５−２ EVOL青山 B1 
+カテゴリチェックスキップ
+カテゴリ焼肉店
+焼肉もちお https://tabelog.com/tokyo/A1306/A130602/13287286/ ホルモン {-  -}
+詳細検索 完了
+ホルモン 焼肉店 {焼肉 牛者} 千葉県 船橋市 {千葉県船橋市本町４丁目４０−２３ 201 } https://tabelog.com/chiba/A1202/A120201/12039731/ {} {047-429-8823 } {} {https://www.google.co.jp/maps/search/焼肉 牛者 
+千葉県船橋市本町4-40-23?gl=jp&h1=jp&gws_rd=cr} 4.0 7 17時00分～23時00分 17時00分～23時00分 17時00分～23時00分 17時00分～23時00分 17時00分～23時00分 17時00分～23時00分 17時00分～23時00分 {
+2016年8月7日
+} {
+
+047-429-8823
+
+} {
+キチ・ジョージ（151）
+} {
+千葉県船橋市本町4-40-23} https://tabelog.com/chiba/A1202/A120201/12039731/
+出力OK
+SYS_ERR Check1
+Old List check1
+ブラックリストdomainチェック1
+ブラックリスト番号1チェック1
+FAX-
+Tell047-429-8823 
+mail-
+URLhttps://tabelog.com/chiba/A1202/A120201/12039731/
+Site URLhttps://www.google.co.jp/maps/search/焼肉 牛者 
+千葉県船橋市本町4-40-23?gl=jp&h1=jp&gws_rd=cr
+Address千葉県船橋市本町４丁目４０−２３ 201 
+OUT :Dribv2Campany Nanme焼肉 牛者
+ブラックリストmailチェック0
+ブラックリストmailチェック0
+ブラックリストmailチェック0
+問い合わせ検索再リサーチNO:1
+問い合わせ検索再リサーチ
+サイト内問い合わせ検索中No:7
+サイト内問い合わせ検索中No:6
+サイト内問い合わせ検索中No:5
+サイト内問い合わせ検索中No:4
+サイト内問い合わせ検索中No:3
+サイト内問い合わせ検索中No:2
+ブラックリストmailチェック0
+サイト内問い合わせ検索中No:1
+ブラックリストmailチェック0
+サイト内タグ個数159
+サイト内タグ検索
+サイト内検索
+詳細検索https://tabelog.com/chiba/A1202/A120201/12039731/
+詳細検索開始
+検索終了
+土曜日　営業時間17時00分～23時00分
+金曜日　営業時間17時00分～23時00分
+水曜日　営業時間17時00分～23時00分
+火曜日　営業時間17時00分～23時00分
+月曜日　営業時間17時00分～23時00分
+日曜日　営業時間17時00分～23時00分
+口コミ7
+平均評価4.0
+グーグル番号047-429-8823 
+グーグル住所千葉県船橋市本町４丁目４０−２３ 201 
+カテゴリチェックスキップ
+カテゴリ焼肉店
+{焼肉 牛者} https://tabelog.com/chiba/A1202/A120201/12039731/ ホルモン {-  -}
+詳細検索 完了
+ホルモン 焼肉店 {肉匠迎賓館 天理店} 奈良県 天理市 {奈良県天理市勾田町１１５−１ } https://ka9x001.gorp.jp/ {} {0743-63-0029 } 0743-56-6233 {https://www.google.co.jp/maps/search/肉匠迎賓館 天理店 
+奈良県天理市勾田町115-1?gl=jp&h1=jp&gws_rd=cr} 4.1 8 16時00分～22時30分 16時00分～22時30分 16時00分～22時30分 16時00分～22時30分 16時00分～22時30分 16時00分～22時30分 16時00分～22時30分 {
+2014年3月18日
+} {
+
+0743-63-0029
+
+} {
+ゆきさん（144）
+} {
+奈良県天理市勾田町115-1} https://tabelog.com/nara/A2904/A290401/29008643/
+出力OK
+SYS_ERR Check1
+Old List check1
+ブラックリストdomainチェック1
+ブラックリスト番号1チェック1
+FAX0743-56-6233
+Tell0743-63-0029 
+mail-
+URLhttps://ka9x001.gorp.jp/
+Site URLhttps://www.google.co.jp/maps/search/肉匠迎賓館 天理店 
+奈良県天理市勾田町115-1?gl=jp&h1=jp&gws_rd=cr
+Address奈良県天理市勾田町１１５−１ 
+OUT :Dribv2Campany Nanme肉匠迎賓館 天理店
+ブラックリストmailチェック0
+ブラックリストmailチェック0
+問い合わせ検索再リサーチ
+サイト内問い合わせ検索中No:7
+サイト内問い合わせ検索中No:6
+サイト内問い合わせ検索中No:5
+サイト内問い合わせ検索中No:4
+サイト内問い合わせ検索中No:3
+サイト内問い合わせ検索中No:2
+ブラックリストmailチェック0
+サイト内問い合わせ検索中No:1
+ブラックリストmailチェック0
+サイト内タグ個数7
+サイト内タグ検索
+サイト内検索
+詳細検索https://ka9x001.gorp.jp/
+詳細検索開始
+検索終了
+土曜日　営業時間16時00分～22時30分
+金曜日　営業時間16時00分～22時30分
+水曜日　営業時間16時00分～22時30分
+火曜日　営業時間16時00分～22時30分
+月曜日　営業時間16時00分～22時30分
+日曜日　営業時間16時00分～22時30分
+口コミ8
+平均評価4.1
+グーグル番号0743-63-0029 
+グーグル住所奈良県天理市勾田町１１５−１ 
+カテゴリチェックスキップ
+カテゴリ焼肉店
+{肉匠迎賓館 天理店} https://tabelog.com/nara/A2904/A290401/29008643/ ホルモン {-  -}
+詳細検索 完了
+ホルモン 焼肉店 {うしごろバンビーナ 銀座店} 東京都 中央区 {東京都中央区銀座５丁目６−１３ 西五番街ビル 3F } http://www.ushigoro-bambina.com/ginza/ {} {03-3573-4129 } {} {https://www.google.co.jp/maps/search/うしごろバンビーナ 銀座店 
+東京都中央区銀座5‐6‐13?gl=jp&h1=jp&gws_rd=cr} 4.1 14 17時00分～23時00分 11時30分～14時00分,17時00分～23時00分 11時30分～14時00分,17時00分～23時00分 11時30分～14時00分,17時00分～23時00分 11時30分～14時00分,17時00分～23時00分 11時30分～23時00分 11時30分～23時00分 {
+2016年10月13日
+} {
+
+03-3573-4129
+
+} {
+ミッポT（3053）
+} {
+東京都中央区銀座5‐6‐13} https://tabelog.com/tokyo/A1301/A130101/13200116/
+出力OK
+SYS_ERR Check1
+Old List check1
+ブラックリストdomainチェック1
+ブラックリスト番号1チェック1
+FAX-
+Tell03-3573-4129 
+mail-
+URLhttp://www.ushigoro-bambina.com/ginza/
+Site URLhttps://www.google.co.jp/maps/search/うしごろバンビーナ 銀座店 
+東京都中央区銀座5‐6‐13?gl=jp&h1=jp&gws_rd=cr
+Address東京都中央区銀座５丁目６−１３ 西五番街ビル 3F 
+OUT :Dribv2Campany Nanmeうしごろバンビーナ 銀座店
+ブラックリストmailチェック0
+ブラックリストmailチェック0
+ブラックリストmailチェック0
+問い合わせ検索再リサーチ
+サイト内問い合わせ検索中No:7
+サイト内問い合わせ検索中No:6
+サイト内問い合わせ検索中No:5
+サイト内問い合わせ検索中No:4
+サイト内問い合わせ検索中No:3
+サイト内問い合わせ検索中No:2
+サイト内問い合わせ検索中No:1
+ブラックリストmailチェック0
+サイト内タグ個数24
+サイト内タグ検索
+サイト内検索
+詳細検索http://www.ushigoro-bambina.com/ginza/
+詳細検索開始
+検索終了
+土曜日　営業時間11時30分～23時00分
+金曜日　営業時間11時30分～14時00分,17時00分～23時00分
+水曜日　営業時間11時30分～14時00分,17時00分～23時00分
+火曜日　営業時間11時30分～14時00分,17時00分～23時00分
+月曜日　営業時間17時00分～23時00分
+日曜日　営業時間11時30分～23時00分
+口コミ14
+平均評価4.1
+グーグル番号03-3573-4129 
+グーグル住所東京都中央区銀座５丁目６−１３ 西五番街ビル 3F 
+カテゴリチェックスキップ
+カテゴリ焼肉店
+{うしごろバンビーナ 銀座店} https://tabelog.com/tokyo/A1301/A130101/13200116/ ホルモン {-  -}
+詳細検索 完了
+ホルモン 焼肉店 兜 東京都 渋谷区 {東京都渋谷区恵比寿西１丁目５−５ } https://gj76600.gorp.jp/ {} {050-5488-4908 } {} {https://www.google.co.jp/maps/search/兜 
+東京都渋谷区恵比寿西1-5-5?gl=jp&h1=jp&gws_rd=cr} 3.1 24 16時00分～5時00分 16時00分～5時00分 16時00分～5時00分 16時00分～5時00分 16時00分～5時00分 16時00分～5時00分 16時00分～5時00分 {
+2004年10月
+} {} {
+ゆみログ（29）
+} {
+東京都渋谷区恵比寿西1-5-5} https://tabelog.com/tokyo/A1303/A130302/13024763/
+出力OK
+SYS_ERR Check1
+Old List check1
+ブラックリストdomainチェック1
+ブラックリスト番号1チェック1
+FAX-
+Tell050-5488-4908 
+mail-
+URLhttps://gj76600.gorp.jp/
+Site URLhttps://www.google.co.jp/maps/search/兜 
+東京都渋谷区恵比寿西1-5-5?gl=jp&h1=jp&gws_rd=cr
+Address東京都渋谷区恵比寿西１丁目５−５ 
+OUT :Dribv2Campany Nanme兜
+問い合わせ検索再リサーチ
+サイト内問い合わせ検索中No:7
+サイト内問い合わせ検索中No:6
+サイト内問い合わせ検索中No:5
+サイト内問い合わせ検索中No:4
+サイト内問い合わせ検索中No:3
+サイト内問い合わせ検索中No:2
+ブラックリストmailチェック0
+サイト内問い合わせ検索中No:1
+ブラックリストmailチェック0
+サイト内タグ個数7
+サイト内タグ検索
+サイト内検索
+詳細検索https://gj76600.gorp.jp/
+詳細検索開始
+検索終了
+土曜日　営業時間16時00分～5時00分
+金曜日　営業時間16時00分～5時00分
+水曜日　営業時間16時00分～5時00分
+火曜日　営業時間16時00分～5時00分
+月曜日　営業時間16時00分～5時00分
+日曜日　営業時間16時00分～5時00分
+口コミ24
+平均評価3.1
+グーグル番号050-5488-4908 
+グーグル住所東京都渋谷区恵比寿西１丁目５−５ 
+カテゴリチェックスキップ
+カテゴリ焼肉店
+兜 https://tabelog.com/tokyo/A1303/A130302/13024763/ ホルモン {-  -}
+詳細検索 完了
+ホルモン 焼肉店 {焼肉トラジ 銀座8丁目店} 東京都 中央区 {東京都中央区銀座８丁目３−１０ トミタビル ２Ｆ } https://www.ebisu-toraji.com/shop/tokyo23/chuo/ginza/ contact-yakiniku1995@ebisu-toraji.com {03-3569-3569 } {} {https://www.google.co.jp/maps/search/焼肉トラジ 銀座8丁目店 
+東京都中央区銀座8-3-10?gl=jp&h1=jp&gws_rd=cr} 4.0 7 17時00分～5時00分 17時00分～5時00分 17時00分～5時00分 17時00分～5時00分 17時00分～5時00分 16時00分～0時00分 16時00分～0時00分 {} {
+
+03-3569-3569
+
+} {
+たーきー★（6）
+} {
+東京都中央区銀座8-3-10} https://tabelog.com/tokyo/A1301/A130103/13002532/
+出力OK
+SYS_ERR Check1
+Old List check1
+ブラックリストdomainチェック1
+ブラックリスト番号1チェック1
+FAX-
+Tell03-3569-3569 
+mailcontact-yakiniku1995@ebisu-toraji.com
+URLhttps://www.ebisu-toraji.com/shop/tokyo23/chuo/ginza/
+Site URLhttps://www.google.co.jp/maps/search/焼肉トラジ 銀座8丁目店 
+東京都中央区銀座8-3-10?gl=jp&h1=jp&gws_rd=cr
+Address東京都中央区銀座８丁目３−１０ トミタビル ２Ｆ 
+OUT :Dribv2Campany Nanme焼肉トラジ 銀座8丁目店
+Reserch word mail
+ブラックリストmailチェック1
+Reserch word mail
+ブラックリストmailチェック1
+Reserch word mail
+ブラックリストmailチェック1
+問い合わせ検索再リサーチ
+サイト内問い合わせ検索中No:7
+サイト内問い合わせ検索中No:6
+サイト内問い合わせ検索中No:5
+サイト内問い合わせ検索中No:4
+サイト内問い合わせ検索中No:3
+サイト内問い合わせ検索中No:2
+Reserch word mail
+ブラックリストmailチェック1
+サイト内問い合わせ検索中No:1
+Reserch word mail
+ブラックリストmailチェック1
+サイト内タグ個数109
+サイト内タグ検索
+サイト内検索
+詳細検索https://www.ebisu-toraji.com/shop/tokyo23/chuo/ginza/
+詳細検索開始
+検索終了
+土曜日　営業時間16時00分～0時00分
+金曜日　営業時間17時00分～5時00分
+水曜日　営業時間17時00分～5時00分
+火曜日　営業時間17時00分～5時00分
+月曜日　営業時間17時00分～5時00分
+日曜日　営業時間16時00分～0時00分
+口コミ7
+平均評価4.0
+グーグル番号03-3569-3569 
+グーグル住所東京都中央区銀座８丁目３−１０ トミタビル ２Ｆ 
+カテゴリチェックスキップ
+カテゴリ焼肉店
+{焼肉トラジ 銀座8丁目店} https://tabelog.com/tokyo/A1301/A130103/13002532/ ホルモン {-  -}
+詳細検索 完了
+ホルモン 焼肉店 {焼肉ホルモン フジビーフ} 東京都 小金井市 {東京都小金井市本町５丁目１８−５ 第５５ 東京ビル B１F } https://retty.me/area/PRE13/ARE4/SUB401/100001488927/ {} {050-5461-2305 } {} {https://www.google.co.jp/maps/search/焼肉ホルモン フジビーフ 
+東京都小金井市本町5-18-5?gl=jp&h1=jp&gws_rd=cr} 3.9 22 17時00分～23時00分 17時00分～23時00分 17時00分～23時00分 17時00分～23時00分 17時00分～23時00分 11時30分～23時00分 11時30分～23時00分 {
+2019年6月22日
+} {
+
+042-386-6366
+
+} {
+アロレ（812）
+} {
+東京都小金井市本町5-18-5} https://tabelog.com/tokyo/A1325/A132501/13042188/
+出力OK
+SYS_ERR Check1
+Old List check1
+ブラックリストdomainチェック1
+ブラックリスト番号1チェック1
+FAX-
+Tell050-5461-2305 
+mail-
+URLhttps://retty.me/area/PRE13/ARE4/SUB401/100001488927/
+Site URLhttps://www.google.co.jp/maps/search/焼肉ホルモン フジビーフ 
+東京都小金井市本町5-18-5?gl=jp&h1=jp&gws_rd=cr
+Address東京都小金井市本町５丁目１８−５ 第５５ 東京ビル B１F 
+OUT :Dribv2Campany Nanme焼肉ホルモン フジビーフ
+ブラックリストmailチェック0
+ブラックリストmailチェック0
+問い合わせ検索再リサーチ
+サイト内問い合わせ検索中No:7
+サイト内問い合わせ検索中No:6
+サイト内問い合わせ検索中No:5
+ブラックリストmailチェック0
+サイト内問い合わせ検索中No:4
+サイト内問い合わせ検索中No:3
+ブラックリストmailチェック0
+サイト内問い合わせ検索中No:2
+ブラックリストmailチェック0
+サイト内問い合わせ検索中No:1
+ブラックリストmailチェック0
+サイト内タグ個数130
+サイト内タグ検索
+サイト内検索
+詳細検索https://retty.me/area/PRE13/ARE4/SUB401/100001488927/
+詳細検索開始
+検索終了
+土曜日　営業時間11時30分～23時00分
+金曜日　営業時間17時00分～23時00分
+水曜日　営業時間17時00分～23時00分
+火曜日　営業時間17時00分～23時00分
+月曜日　営業時間17時00分～23時00分
+日曜日　営業時間11時30分～23時00分
+口コミ22
+平均評価3.9
+グーグル番号050-5461-2305 
+グーグル住所東京都小金井市本町５丁目１８−５ 第５５ 東京ビル B１F 
+カテゴリチェックスキップ
+カテゴリ焼肉店
+{焼肉ホルモン フジビーフ} https://tabelog.com/tokyo/A1325/A132501/13042188/ ホルモン {-  -}
+詳細検索 完了
+ホルモン 焼肉店 {うしごろ 貫 恵比寿本店} 東京都 渋谷区 {東京都渋谷区恵比寿南１丁目８−１ ＳＴＭ恵比寿ビル 1F } http://ushigoro-kan.com/ {} {03-5725-2929 } {} {https://www.google.co.jp/maps/search/うしごろ 貫 恵比寿本店 
+東京都渋谷区恵比寿南1-8-1?gl=jp&h1=jp&gws_rd=cr} 4.0 10 {} {} {} {} {} {} {} {
+2013年10月7日
+} {
+
+03-5725-2929
+
+} {
+へっぽこり〜の（15）
+} {
+東京都渋谷区恵比寿南1-8-1} https://tabelog.com/tokyo/A1303/A130302/13160330/
+出力OK
+SYS_ERR Check1
+Old List check1
+ブラックリストdomainチェック1
+ブラックリスト番号1チェック1
+FAX-
+Tell03-5725-2929 
+mail-
+URLhttp://ushigoro-kan.com/
+Site URLhttps://www.google.co.jp/maps/search/うしごろ 貫 恵比寿本店 
+東京都渋谷区恵比寿南1-8-1?gl=jp&h1=jp&gws_rd=cr
+Address東京都渋谷区恵比寿南１丁目８−１ ＳＴＭ恵比寿ビル 1F 
+OUT :Dribv2Campany Nanmeうしごろ 貫 恵比寿本店
+ブラックリストmailチェック0
+ブラックリストmailチェック0
+ブラックリストmailチェック0
+問い合わせ検索再リサーチ
+サイト内問い合わせ検索中No:7
+サイト内問い合わせ検索中No:6
+サイト内問い合わせ検索中No:5
+サイト内問い合わせ検索中No:4
+サイト内問い合わせ検索中No:3
+サイト内問い合わせ検索中No:2
+サイト内問い合わせ検索中No:1
+ブラックリストmailチェック0
+サイト内タグ個数6
+サイト内タグ検索
+サイト内検索
+詳細検索http://ushigoro-kan.com/
+詳細検索開始
+検索終了
+土曜日　営業時間
+金曜日　営業時間
+水曜日　営業時間
+火曜日　営業時間
+月曜日　営業時間
+日曜日　営業時間
+口コミ10
+平均評価4.0
+グーグル番号03-5725-2929 
+グーグル住所東京都渋谷区恵比寿南１丁目８−１ ＳＴＭ恵比寿ビル 1F 
+カテゴリチェックスキップ
+カテゴリ焼肉店
+{うしごろ 貫 恵比寿本店} https://tabelog.com/tokyo/A1303/A130302/13160330/ ホルモン {-  -}
+詳細検索 完了
+ホルモン 焼肉店 {焼肉 いのうえ 国分寺店} 東京都 国分寺市 {東京都国分寺市本町２丁目１４−３ 4F、5F、6F アイティープラスビル } https://www.instagram.com/inoue_kokubunji/ {} {042-359-4715 } {} {https://www.google.co.jp/maps/search/焼肉 いのうえ 国分寺店 
+東京都国分寺市本町2-14-3?gl=jp&h1=jp&gws_rd=cr} 4.4 28 {} {} {} {} {} {} {} {
+2016年3月8日
+} {
+
+042-359-4715
+
+} {
+maxbee（942）
+} {
+東京都国分寺市本町2-14-3} https://tabelog.com/tokyo/A1325/A132502/13193831/
+出力OK
+SYS_ERR Check1
+Old List check1
+ブラックリストdomainチェック1
+ブラックリスト番号1チェック1
+FAX-
+Tell042-359-4715 
+mail-
+URLhttps://www.instagram.com/inoue_kokubunji/
+Site URLhttps://www.google.co.jp/maps/search/焼肉 いのうえ 国分寺店 
+東京都国分寺市本町2-14-3?gl=jp&h1=jp&gws_rd=cr
+Address東京都国分寺市本町２丁目１４−３ 4F、5F、6F アイティープラスビル 
+OUT :Dribv2Campany Nanme焼肉 いのうえ 国分寺店
+問い合わせ検索再リサーチ
+サイト内問い合わせ検索中No:7
+サイト内問い合わせ検索中No:6
+サイト内問い合わせ検索中No:5
+サイト内問い合わせ検索中No:4
+サイト内問い合わせ検索中No:3
+サイト内問い合わせ検索中No:2
+サイト内問い合わせ検索中No:1
+ブラックリストmailチェック0
+サイト内タグ個数0
+サイト内タグ検索
+サイト内検索
+詳細検索https://www.instagram.com/inoue_kokubunji/
+詳細検索開始
+検索終了
+土曜日　営業時間
+金曜日　営業時間
+水曜日　営業時間
+火曜日　営業時間
+月曜日　営業時間
+日曜日　営業時間
+口コミ28
+平均評価4.4
+グーグル番号042-359-4715 
+グーグル住所東京都国分寺市本町２丁目１４−３ 4F、5F、6F アイティープラスビル 
+カテゴリチェックスキップ
+カテゴリ焼肉店
+{焼肉 いのうえ 国分寺店} https://tabelog.com/tokyo/A1325/A132502/13193831/ ホルモン {-  -}
+詳細検索 完了
+ホルモン 焼肉店 {神楽坂焼肉 Kintan} 東京都 新宿区 {東京都新宿区神楽坂１丁目１０−２ } https://kintan.restaurant/ {} {03-3260-4129 } {} {https://www.google.co.jp/maps/search/神楽坂焼肉 Kintan 
+東京都新宿区神楽坂1-10-2?gl=jp&h1=jp&gws_rd=cr} 4.1 13 11時30分～14時30分,18時00分～22時00分 11時30分～14時30分,18時00分～22時00分 11時30分～14時30分,18時00分～22時00分 11時30分～14時30分,18時00分～22時00分 11時30分～14時30分,18時00分～22時00分 11時30分～14時30分,17時00分～22時00分 11時30分～14時30分,17時00分～21時00分 {
+2017年3月30日
+} {
+
+03-3260-4129
+
+} {
+早瀬あゆき（1045）
+} {
+東京都新宿区神楽坂1-10-2} https://tabelog.com/tokyo/A1309/A130905/13205332/
+出力OK
+SYS_ERR Check1
+Old List check1
+ブラックリストdomainチェック1
+ブラックリスト番号1チェック1
+FAX-
+Tell03-3260-4129 
+mail-
+URLhttps://kintan.restaurant/
+Site URLhttps://www.google.co.jp/maps/search/神楽坂焼肉 Kintan 
+東京都新宿区神楽坂1-10-2?gl=jp&h1=jp&gws_rd=cr
+Address東京都新宿区神楽坂１丁目１０−２ 
+OUT :Dribv2Campany Nanme神楽坂焼肉 Kintan
+問い合わせ検索再リサーチ
+サイト内問い合わせ検索中No:7
+サイト内問い合わせ検索中No:6
+サイト内問い合わせ検索中No:5
+サイト内問い合わせ検索中No:4
+サイト内問い合わせ検索中No:3
+サイト内問い合わせ検索中No:2
+サイト内問い合わせ検索中No:1
+ブラックリストmailチェック0
+サイト内タグ個数35
+サイト内タグ検索
+サイト内検索
+詳細検索https://kintan.restaurant/
+詳細検索開始
+検索終了
+土曜日　営業時間11時30分～14時30分,17時00分～22時00分
+金曜日　営業時間11時30分～14時30分,18時00分～22時00分
+水曜日　営業時間11時30分～14時30分,18時00分～22時00分
+火曜日　営業時間11時30分～14時30分,18時00分～22時00分
+月曜日　営業時間11時30分～14時30分,18時00分～22時00分
+日曜日　営業時間11時30分～14時30分,17時00分～21時00分
+口コミ13
+平均評価4.1
+グーグル番号03-3260-4129 
+グーグル住所東京都新宿区神楽坂１丁目１０−２ 
+カテゴリチェックスキップ
+カテゴリ焼肉店
+{神楽坂焼肉 Kintan} https://tabelog.com/tokyo/A1309/A130905/13205332/ ホルモン {-  -}
+詳細検索 完了
+ホルモン 焼肉店 {本気焼肉 肉とめし 肉寿司} 北海道 札幌市 {ニューブルーナイルビル, 2f, ３丁目-1-２ 南５条西 中央区 札幌市 北海道 064-0805 } https://nikutomeshi.owst.jp/ {} {011-530-0003 } {} {https://www.google.co.jp/maps/search/本気焼肉 肉とめし 肉寿司 
+北海道札幌市中央区南五条西3?gl=jp&h1=jp&gws_rd=cr} 4.3 5 定休日 18時00分～0時00分 18時00分～0時00分 18時00分～0時00分 18時00分～0時00分 18時00分～0時00分 17時00分～0時00分 {
+2018年7月2日
+} {
+
+011-530-0003
+
+} {
+ﾄﾑ（4091）
+} {
+北海道札幌市中央区南五条西3} https://tabelog.com/hokkaido/A0101/A010103/1058888/
+出力OK
+SYS_ERR Check1
+Old List check1
+ブラックリストdomainチェック1
+ブラックリスト番号1チェック1
+FAX-
+Tell011-530-0003 
+mail-
+URLhttps://nikutomeshi.owst.jp/
+Site URLhttps://www.google.co.jp/maps/search/本気焼肉 肉とめし 肉寿司 
+北海道札幌市中央区南五条西3?gl=jp&h1=jp&gws_rd=cr
+Addressニューブルーナイルビル, 2f, ３丁目-1-２ 南５条西 中央区 札幌市 北海道 064-0805 
+OUT :Dribv2Campany Nanme本気焼肉 肉とめし 肉寿司
+問い合わせ検索再リサーチ
+サイト内問い合わせ検索中No:7
+サイト内問い合わせ検索中No:6
+サイト内問い合わせ検索中No:5
+サイト内問い合わせ検索中No:4
+サイト内問い合わせ検索中No:3
+サイト内問い合わせ検索中No:2
+ブラックリストmailチェック0
+サイト内問い合わせ検索中No:1
+ブラックリストmailチェック0
+サイト内タグ個数12
+サイト内タグ検索
+サイト内検索
+詳細検索https://nikutomeshi.owst.jp/
+詳細検索開始
+検索終了
+土曜日　営業時間18時00分～0時00分
+金曜日　営業時間18時00分～0時00分
+水曜日　営業時間18時00分～0時00分
+火曜日　営業時間18時00分～0時00分
+月曜日　営業時間定休日
+日曜日　営業時間17時00分～0時00分
+口コミ5
+平均評価4.3
+グーグル番号011-530-0003 
+グーグル住所ニューブルーナイルビル, 2f, ３丁目-1-２ 南５条西 中央区 札幌市 北海道 064-0805 
+カテゴリチェックスキップ
+カテゴリ焼肉店
+{本気焼肉 肉とめし 肉寿司} https://tabelog.com/hokkaido/A0101/A010103/1058888/ ホルモン {-  -}
+詳細検索 完了
+ホルモン 焼肉店 極・和牛焼肉やざわ 東京都 豊島区 {東京都豊島区南池袋１丁目１８−２３ ルックハイツ 池袋 A棟 B館B1階 } https://yazawa-ikebukuro.com/ {} {050-5266-0315 } {} {https://www.google.co.jp/maps/search/極・和牛焼肉やざわ 
+東京都豊島区南池袋1-18-23?gl=jp&h1=jp&gws_rd=cr} 4.1 8 {} {} {} {} {} {} {} {
+2006年3月1日
+} {
+
+03-5956-4400
+
+} {
+みうがん（1）
+} {
+東京都豊島区南池袋1-18-23} https://tabelog.com/tokyo/A1305/A130501/13038323/
+出力OK
+SYS_ERR Check1
+Old List check1
+ブラックリストdomainチェック1
+ブラックリスト番号1チェック1
+FAX-
+Tell050-5266-0315 
+mail-
+URLhttps://yazawa-ikebukuro.com/
+Site URLhttps://www.google.co.jp/maps/search/極・和牛焼肉やざわ 
+東京都豊島区南池袋1-18-23?gl=jp&h1=jp&gws_rd=cr
+Address東京都豊島区南池袋１丁目１８−２３ ルックハイツ 池袋 A棟 B館B1階 
+OUT :Dribv2Campany Nanme極・和牛焼肉やざわ
+問い合わせ検索再リサーチ
+サイト内問い合わせ検索中No:7
+サイト内問い合わせ検索中No:6
+サイト内問い合わせ検索中No:5
+サイト内問い合わせ検索中No:4
+サイト内問い合わせ検索中No:3
+サイト内問い合わせ検索中No:2
+サイト内問い合わせ検索中No:1
+ブラックリストmailチェック0
+サイト内タグ個数20
+サイト内タグ検索
+サイト内検索
+詳細検索https://yazawa-ikebukuro.com/
+詳細検索開始
+検索終了
+土曜日　営業時間
+金曜日　営業時間
+水曜日　営業時間
+火曜日　営業時間
+月曜日　営業時間
+日曜日　営業時間
+口コミ8
+平均評価4.1
+グーグル番号050-5266-0315 
+グーグル住所東京都豊島区南池袋１丁目１８−２３ ルックハイツ 池袋 A棟 B館B1階 
+カテゴリチェックスキップ
+カテゴリ焼肉店
+極・和牛焼肉やざわ https://tabelog.com/tokyo/A1305/A130501/13038323/ ホルモン {-  -}
+詳細検索 完了
+ホルモン 焼肉店 {天下一の焼肉 将泰庵 船橋駅前 はなれ店} 千葉県 船橋市 {千葉県船橋市本町４丁目３−５ 大西園ビル 1,2F } http://shoutaian-hanare.com/ {} {047-409-6677 } {} {https://www.google.co.jp/maps/search/天下一の焼肉 将泰庵 船橋駅前 はなれ店 
+千葉県船橋市本町4-3-5?gl=jp&h1=jp&gws_rd=cr} 4.2 38 11時30分～14時30分,17時00分～23時00分 11時30分～14時30分,17時00分～23時00分 11時30分～14時30分,17時00分～23時00分 11時30分～14時30分,17時00分～23時00分 11時30分～14時30分,17時00分～23時00分 11時30分～23時00分 11時30分～23時00分 {
+2013年10月28日
+} {
+
+047-409-6677
+
+} {
+しず350（693）
+} {
+千葉県船橋市本町4-3-5} https://tabelog.com/chiba/A1202/A120201/12032975/
+出力OK
+SYS_ERR Check1
+Old List check1
+ブラックリストdomainチェック1
+ブラックリスト番号1チェック1
+FAX-
+Tell047-409-6677 
+mail-
+URLhttp://shoutaian-hanare.com/
+Site URLhttps://www.google.co.jp/maps/search/天下一の焼肉 将泰庵 船橋駅前 はなれ店 
+千葉県船橋市本町4-3-5?gl=jp&h1=jp&gws_rd=cr
+Address千葉県船橋市本町４丁目３−５ 大西園ビル 1,2F 
+OUT :Dribv2Campany Nanme天下一の焼肉 将泰庵 船橋駅前 はなれ店
+問い合わせ検索再リサーチ
+サイト内問い合わせ検索中No:7
+サイト内問い合わせ検索中No:6
+サイト内問い合わせ検索中No:5
+サイト内問い合わせ検索中No:4
+サイト内問い合わせ検索中No:3
+サイト内問い合わせ検索中No:2
+ブラックリストmailチェック0
+サイト内問い合わせ検索中No:1
+ブラックリストmailチェック0
+サイト内タグ個数14
+サイト内タグ検索
+サイト内検索
+詳細検索http://shoutaian-hanare.com/
+詳細検索開始
+検索終了
+土曜日　営業時間11時30分～23時00分
+金曜日　営業時間11時30分～14時30分,17時00分～23時00分
+水曜日　営業時間11時30分～14時30分,17時00分～23時00分
+火曜日　営業時間11時30分～14時30分,17時00分～23時00分
+月曜日　営業時間11時30分～14時30分,17時00分～23時00分
+日曜日　営業時間11時30分～23時00分
+口コミ38
+平均評価4.2
+グーグル番号047-409-6677 
+グーグル住所千葉県船橋市本町４丁目３−５ 大西園ビル 1,2F 
+カテゴリチェックスキップ
+カテゴリ焼肉店
+{天下一の焼肉 将泰庵 船橋駅前 はなれ店} https://tabelog.com/chiba/A1202/A120201/12032975/ ホルモン {千葉県  船橋市}
+検索エラー立ち上げ中
+検索エラーリトライ中
+Traceback (most recent call last):
+  File "E:\project\9.21(IZANAMI)\IZNAMI_20240304\main\g_fnc_google.py", line 1626, in google_detail_reserch
+    out_googel_list.append(h_hyouka)#評価
+UnboundLocalError: local variable 'h_hyouka' referenced before assignment
+
+2024-03-21 16:43:12.965363
+SYS_ERR Check1
